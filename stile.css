@@ -1,0 +1,205 @@
+*, html, body {
+    margin: 0em;
+    padding: 0em;
+}
+
+body {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: thin;
+    border-right-width: thin;
+}
+
+#header {
+    vertical-align: middle;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    height: 9em;
+    background-color: #1E90FF;
+}
+
+#header #headImg {
+    width: auto;
+    height: 7em;
+    float: left;
+    padding-top: 0.5em;
+}
+
+#header h1 {
+    float: left;
+    margin-left: 3em;
+    padding-top: 1.8em;
+}
+
+#header #headerutility {
+    float: right;
+    text-align: right;
+    width: 16em;
+    height: 9em;
+}
+
+#header #headerutility label {
+    clear: both;
+    float: left;
+    margin-top: 0.9em;
+}
+
+#header #headerutility p {
+    margin-top: 0.5em;
+    text-align: right;
+    width: 12em;
+    float: right;
+    margin-right: 2em;
+}
+
+#header #headerutility #connesso {
+    margin-top: 2.6em;
+}
+
+#header #headerutility input {
+    margin-top: 1em;
+    margin-right: 2em;
+}
+
+#breadcrumb {
+    clear: both;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    background-color: #4169E1;
+}
+
+#nav {
+    clear: both;
+    float: left;
+    width: 15%;
+    line-height: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+#nav ul{
+    list-style: none;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+
+#nav li {
+    clear: both;
+    float: right;
+    background-color: white;
+    /*margin-bottom: 0.3em;*/
+    width: 100%;
+    text-align: right;
+    line-height: 2em;
+    min-height: 2em;
+
+    /*Border Navigation menu*/
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: #888888;
+
+}
+
+
+#nav #active{
+    font-size: medium;
+    font-weight: bold;
+    background-color: #0082CC;
+    color: white;
+    padding-right: 1em;
+}
+
+#nav a.blocco{
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    padding-right: 1em;
+}
+
+#nav li:hover{
+    background-color: #A9BBFF;
+}
+
+#content {
+    min-height: 100%;
+    height: 100%;
+    margin-left: 15%;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-collapse: collapse;
+}
+
+#content #dati_utente {
+    line-height: 2em;
+}
+
+#content ul li {
+    list-style-position: inside;
+}
+
+#content .fc {
+    width: auto;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+#content .fc div {
+    margin-top: 0.6em;
+    margin-left: 0.6em;
+}
+
+#content .fc div label {
+    width: 220px;
+    display: block;
+    float: left;
+}
+
+#content .fc #pulsanti {
+    margin-bottom: 1.5em;
+}
+
+#content .fc #pulsanti input {
+    margin-right: 1em;
+}
+
+#content p {
+    margin: 0.4em auto;
+}
+
+#content #corsi {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#content #corsi dt {
+    margin-top: 0.5em;
+} 
+
+#content table {
+    margin: 0.5em;
+    margin-left: 0em;
+}
+
+#content table tbody tr th, #content table tbody tr td {
+    padding: 0.5em;
+}
+
+#footer {
+    clear: both;
+    text-align:center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: thin;
+    border-left-style: none;
+    border-right-style: none;
+    padding: 0.8em;
+}
